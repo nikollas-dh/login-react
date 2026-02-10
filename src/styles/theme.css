@@ -1,9 +1,9 @@
 :root {
     --primary-color: #000000;
-    --secondary-color: #1f1f1f;
+    --secondary-color: #1d1d1d;
     --terceira-cor:white;
     --font-family: 'Helvetica Neue', sans-serif;
-    --font-size-base: 16px;
+    --font-size-base: 1.1rem;
     --spacing-unit: 8px;
     --borda-input:30px;
     --borda-botao:10px;

@@ -13,45 +13,68 @@ body {
     font-family: var(--font-family);
     color: var(--terceira-cor);
 }
+
 main {
     height: 70vh;
-    width: 30vw;
-    background-color: var(--primary-color);
+    width: 30rem;
+    background-color: var(--secondary-color);
     border-radius: var(--borda-card);
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 10px var(--terceira-cor);
+    cursor: pointer;
+
 }
+
+main:hover {
+    box-shadow: 0 0 8px var(--terceira-cor);
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    transition: background 0.3s ease;
+}
+
 h1 {
     margin-bottom: 10%;
 }
+
 article {
     width: 90%;
     height: 80%;
     text-align: center;
 }
 
-section{
+section {
     width: 100%;
     height: 40%;
 }
 
 input {
-    border-radius:var(--borda-input);
+    border-radius: var(--borda-input);
     border: none;
     margin-top: 2%;
     margin-left: 2%;
-    width: 60%;
-    height: 3vh;
+    width: 80%;
+    height: 3rem;
+
+}
+
+label {
+    font-size: var(--font-size-base);
 }
 
 button {
     width: 25%;
-    height: 15%;
+    height: 3em;
     cursor: pointer;
     margin-top: 10%;
     border-radius: var(--borda-botao);
     border: none;
+    background: linear-gradient(to right, #a1a1a1, #6b6b6b);
+    transition: background 0.3s ease;
+    color: var(--terceira-cor);
+}
+
+button:hover {
+    transform: scale(1.02);
+    box-shadow: 0  0 5px 5px rgb(93, 99, 99);
 
 }
