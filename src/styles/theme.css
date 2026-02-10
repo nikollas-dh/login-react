@@ -5,4 +5,7 @@
     --font-family: 'Helvetica Neue', sans-serif;
     --font-size-base: 16px;
     --spacing-unit: 8px;
+    --borda-input:30px;
+    --borda-botao:10px;
+    --borda-card:60px;
 }

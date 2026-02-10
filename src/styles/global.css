@@ -16,8 +16,8 @@ body {
 main {
     height: 70vh;
     width: 30vw;
-    background-color: var(--secondary-color);
-    border-radius: 60px;
+    background-color: var(--primary-color);
+    border-radius: var(--borda-card);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ section{
 }
 
 input {
-    border-radius:30px;
+    border-radius:var(--borda-input);
     border: none;
     margin-top: 2%;
     margin-left: 2%;
@@ -51,7 +51,7 @@ button {
     height: 15%;
     cursor: pointer;
     margin-top: 10%;
-    border-radius: 10px;
+    border-radius: var(--borda-botao);
     border: none;
 
 }
